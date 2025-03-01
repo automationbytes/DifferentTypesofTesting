@@ -16,25 +16,16 @@
   - Enhances overall user experience and meets quality standards beyond just functional requirements.
 - **Examples:** Performance Testing, Security Testing, Usability Testing.
 
-### Functional vs. Non-Functional Testing (Tabular View)
-
-| Feature | Functional Testing (Green - Success/Correctness) | Non-Functional Testing (Blue - Quality/Performance) |
-|---|---|---|
-| **Focus** | Verifies *what* the software does. | Verifies *how well* the software performs. |
-| **Question Answered** | "Does it work correctly?" | "How well does it work?" |
-| **Examples (Car)** |  * Does the engine start? <br> * Do the brakes stop the car? <br> * Does the steering wheel control the direction? <br> * Do the headlights turn on? | * How fast does the car accelerate? <br> * How much fuel does the car consume? <br> * Is the car comfortable to drive? <br> * Is the car safe in a crash? <br> * Does the car's paint withstand weather? |
-| **Examples (Software)** | * Does the user login successfully? <br> * Does the "Add to Cart" button work? <br> * Does the payment gateway process transactions correctly? <br> * Does the search function return relevant results? | * How fast does the website load? <br> * Can the website handle 10,000 users simultaneously? <br> * Is the website easy to navigate? <br> * Is the website secure from hacking? <br> * Does the website work on different browsers? |
-| **Testing Types (Car)** | Smoke, Sanity, Regression, Retesting, Alpha, Beta, Ad-hoc, Exploratory, End-to-End.  (See detailed explanations below) | Performance (Load, Stress, Endurance, Spike, Volume), Usability, Security, Compatibility, Reliability, Resilience, Localization, Installation, Accessibility. (See detailed explanations below) |
-| **Testing Types (Software)** | Same as Car | Same as Car |
-
+### Functional vs. Non-Functional Testing 
 
 | **Aspect**                   | **Functional Testing**                                                                      | **Non-Functional Testing**                                                                   |
 |------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | **Purpose**                  | Verifies that software features and functionalities work as intended.                        | Evaluates the performance, reliability, usability, and other non-functional aspects.          |
+| **Question Answered** | "Does it work correctly?" | "How well does it work?" |
 | **Why We Need It**           | - Ensures the software performs its designed tasks.                                           - Provides confidence in meeting user requirements.                                              - Catches issues early in development, reducing production bugs.                                    | - Ensures the software performs well under various conditions.                                    - Identifies bottlenecks, security vulnerabilities, and usability issues.                          - Enhances overall user experience and meets quality standards beyond functional requirements.      |
 | **Examples**                 | Smoke Testing, Regression Testing, User Acceptance Testing.                                | Performance Testing, Security Testing, Usability Testing.                                     |
-| **Car Example**              | - Checking if the engine starts, the car moves, and the lights work after a repair.          - Ensuring tire pressure, fluid levels, and brakes work before a road trip.                      - Testing if the air conditioning works after a repair.                                          | - Testing a car with a full load of passengers and luggage.                                        - Driving a car at its top speed for an extended period.                                           - Testing the layout of the dashboard and controls for ease of use.                                |
-| **Software Example**         | - Verifying homepage loads, user can log in, and basic search function works after a new build. - Testing account creation, placing an order, and profile updates before a major release.        - Ensuring existing payment methods work after adding a new payment gateway.                     | - Simulating a large number of users accessing a website simultaneously.                         - Bombarding a server with more requests than it's designed to handle.                             - Observing users interacting with a website to identify confusing navigation or unclear instructions.|
+| **Examples (Car)** |  * Does the engine start? <br> * Do the brakes stop the car? <br> * Does the steering wheel control the direction? <br> * Do the headlights turn on? | * How fast does the car accelerate? <br> * How much fuel does the car consume? <br> * Is the car comfortable to drive? <br> * Is the car safe in a crash? <br> * Does the car's paint withstand weather? |
+| **Examples (Software)** | * Does the user login successfully? <br> * Does the "Add to Cart" button work? <br> * Does the payment gateway process transactions correctly? <br> * Does the search function return relevant results? | * How fast does the website load? <br> * Can the website handle 10,000 users simultaneously? <br> * Is the website easy to navigate? <br> * Is the website secure from hacking? <br> * Does the website work on different browsers? |
 
 
 ### Functional Testing (Verifying Features)
