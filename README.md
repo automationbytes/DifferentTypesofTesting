@@ -18,6 +18,16 @@
 
 ### Functional vs. Non-Functional Testing (Tabular View)
 
+| Feature | Functional Testing (Green - Success/Correctness) | Non-Functional Testing (Blue - Quality/Performance) |
+|---|---|---|
+| **Focus** | Verifies *what* the software does. | Verifies *how well* the software performs. |
+| **Question Answered** | "Does it work correctly?" | "How well does it work?" |
+| **Examples (Car)** |  * Does the engine start? <br> * Do the brakes stop the car? <br> * Does the steering wheel control the direction? <br> * Do the headlights turn on? | * How fast does the car accelerate? <br> * How much fuel does the car consume? <br> * Is the car comfortable to drive? <br> * Is the car safe in a crash? <br> * Does the car's paint withstand weather? |
+| **Examples (Software)** | * Does the user login successfully? <br> * Does the "Add to Cart" button work? <br> * Does the payment gateway process transactions correctly? <br> * Does the search function return relevant results? | * How fast does the website load? <br> * Can the website handle 10,000 users simultaneously? <br> * Is the website easy to navigate? <br> * Is the website secure from hacking? <br> * Does the website work on different browsers? |
+| **Testing Types (Car)** | Smoke, Sanity, Regression, Retesting, Alpha, Beta, Ad-hoc, Exploratory, End-to-End.  (See detailed explanations below) | Performance (Load, Stress, Endurance, Spike, Volume), Usability, Security, Compatibility, Reliability, Resilience, Localization, Installation, Accessibility. (See detailed explanations below) |
+| **Testing Types (Software)** | Same as Car | Same as Car |
+
+
 | **Aspect**                   | **Functional Testing**                                                                      | **Non-Functional Testing**                                                                   |
 |------------------------------|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | **Purpose**                  | Verifies that software features and functionalities work as intended.                        | Evaluates the performance, reliability, usability, and other non-functional aspects.          |
