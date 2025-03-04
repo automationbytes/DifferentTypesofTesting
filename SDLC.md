@@ -2,7 +2,7 @@
 
 | Phase                    | Input                                                  | Activity                                                                                   | Responsible Person         | Outcome                  |
 |--------------------------|--------------------------------------------------------|-------------------------------------------------------------------------------------------|----------------------------|--------------------------|
-| **Planning**             | Business Requirements, Stakeholder Input               | - Define the project scope                                                                 | Project Manager            | Project Plan             |
+| **Requirement**             | Business Requirements, Stakeholder Input               | - Define the project scope                                                                 | Project Manager            | Project Plan             |
 |                          |                                                        | - Identify resources and stakeholders                                                      | Business Analyst           | Budget and Timeline      |
 |                          |                                                        | - Cost estimation and budgeting                                                            | Finance Team               |                          |
 |                          |                                                        | - Create project schedule                                                                  | Project Manager            |                          |
