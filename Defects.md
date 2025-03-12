@@ -29,8 +29,6 @@ An error message is displayed: "System Error".
 | Medium                   | The defect causes moderate problems that can be tolerated or have workarounds. |
 | Low                      | The defect causes minor issues that do not significantly impact the system's functionality. |
 
-**Severity Level for this Defect:** High
-
 ---
 
 ### Examples of Severity:
@@ -55,9 +53,4 @@ An error message is displayed: "System Error".
 
 ---
 
-## Conclusion:
-This defect is of **High Severity** and **High Priority** as it impairs user login functionality, which is critical for accessing the application.
 
----
-
-Please let me know if you need any further details or adjustments.
