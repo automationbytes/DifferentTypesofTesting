@@ -1,3 +1,24 @@
+# Software Development Life Cycle (SDLC)
+
+## Stages of SDLC:
+
+1. **Requirements Gathering:** Collect and analyze the requirements from stakeholders.
+2. **Design:** Create architecture and design specifications.
+3. **Implementation (Coding):** Write and integrate the code for the project.
+4. **Testing:** Test the software to identify defects and ensure quality.
+5. **Deployment and Maintenance:** Deploy the software to the production environment and provide ongoing support, fix bugs, and make updates.
+
+## SDLC Diagram:
+
+```mermaid
+graph TD;
+    Requirements --> Design;
+    Design --> Implementation;
+    Implementation --> Testing;
+    Testing --> DeploymentAndMaintenance;
+
+
+
 ## Simplified SDLC Process Document
 
 | Phase                    | Input                                                  | What Happens Here                                                        | Who's In Charge               | Outcome/Deliverables         |
