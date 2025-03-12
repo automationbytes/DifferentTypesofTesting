@@ -6,7 +6,8 @@
 2. **Design:** Create architecture and design specifications.
 3. **Implementation (Coding):** Write and integrate the code for the project.
 4. **Testing:** Test the software to identify defects and ensure quality.
-5. **Deployment and Maintenance:** Deploy the software to the production environment and provide ongoing support, fix bugs, and make updates.
+5. **Deployment:** Deploy the software to the production environment.
+6. **Maintenance:** Provide ongoing support, fix bugs, and make updates.
 
 ## SDLC Diagram:
 
