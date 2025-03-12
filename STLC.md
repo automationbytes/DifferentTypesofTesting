@@ -1,3 +1,27 @@
+# Software Testing Life Cycle (STLC)
+
+## Stages of STLC:
+
+1. **Requirement Analysis:** Analyze and review the requirements for testing.
+2. **Test Planning:** Create the test plan, strategy, and estimation.
+3. **Test Case Design:** Design and develop test cases and test scripts.
+4. **Test Environment Setup:** Set up the test environment and prepare test data.
+5. **Test Execution:** Execute the test cases and report defects.
+6. **Test Cycle Closure:** Evaluate test coverage, prepare test closure reports, and archive test artifacts.
+
+## STLC Diagram:
+
+```mermaid
+graph TD;
+    RequirementAnalysis --> TestPlanning;
+    TestPlanning --> TestCaseDesign;
+    TestCaseDesign --> TestEnvironmentSetup;
+    TestEnvironmentSetup --> TestExecution;
+    TestExecution --> TestCycleClosure;
+```
+
+
+
 ## Test Process Document
 
 | Phase                    | Input                                                | Activity                                                                 | Responsible Person         | Outcome                  |
