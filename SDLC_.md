@@ -19,7 +19,7 @@ graph TD;
     Testing --> Deployment;
     Deployment --> Maintenance;
 
-
+```
 ## Simplified SDLC Process Document
 
 | Phase                    | Input                                                  | What Happens Here                                                        | Who's In Charge               | Outcome/Deliverables         |
