@@ -15,8 +15,8 @@ graph TD;
     Requirements --> Design;
     Design --> Implementation;
     Implementation --> Testing;
-    Testing --> DeploymentAndMaintenance;
-
+    Testing --> Deployment;
+    Deployment --> Maintenance;
 
 
 ## Simplified SDLC Process Document
